@@ -1,6 +1,5 @@
 from unittest import TestCase
 from blog import Blog
-from post_test import PostTest
 
 
 class BlogTest(TestCase):
@@ -26,3 +25,4 @@ class BlogTest(TestCase):
 
         self.assertEqual(b.__repr__(), 'Test by Test Author (1 post)')
         self.assertEqual(b2.__repr__(), 'My Day by Rolf (2 posts)')
+
